@@ -29,7 +29,7 @@ Click on `New Repository Secret` and add the following:
 * `WORKING_GROUP` - the short identifier for the WG, e.g., `httpbis`, `tls`, `dnsop`. Should be lowercase.
 * `TOOT_API_BASE` - the Mastodon instance connected to
 * `TOOT_TOKEN_KEY` - the Access Secret
-* `TOOT_HASH` - an optional hashtag to add to all posts
+* `TOOT_HASH` - an optional hashtag to add to all posts.  Many sites, like hachyderm, would like #hachybots added here.
 
 
 ## 4. Randomise the Cron Job
